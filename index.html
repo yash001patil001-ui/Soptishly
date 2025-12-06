@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soptishly Learning App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4A148C">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">Soptishly</div>
+            <nav>
+                <a href="#" class="nav-item active">🏠 Dashboard</a>
+                <a href="#" class="nav-item">📚 My Courses</a>
+                <a href="#" class="nav-item">📝 Practice Tests</a>
+                <a href="#" class="nav-item">💡 Doubts & Help</a>
+                <a href="#" class="nav-item">⚙️ Settings</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <h2>Welcome back, Student!</h2>
+                <div class="user-profile">
+                    <span>Profile</span>
+                </div>
+            </header>
+
+            <section class="dashboard-cards">
+                <div class="card course-resume">
+                    <h3>Continue Learning: Physics Electrodynamics</h3>
+                    <p>Chapter 3: Electric Potential</p>
+                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 75%;"></div></div>
+                    <button class="btn primary">Resume Lecture (75%)</button>
+                </div>
+
+                <div class="card test-alert">
+                    <h3>Upcoming Test: Mock Exam 1</h3>
+                    <p>Subject: Chemistry | Date: Tomorrow</p>
+                    <button class="btn secondary">View Syllabus</button>
+                </div>
+
+                <div class="card quick-links">
+                    <h3>Quick Access</h3>
+                    <button class="btn tertiary">Download Notes</button>
+                    <button class="btn tertiary">Ask a Doubt</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
